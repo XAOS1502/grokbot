@@ -107,7 +107,7 @@ class Information:
 
         await ctx.send(embed=em)
 
-    @commands.command()
+    @commands.command(aliases=['bot', 'about'])
     async def info(self, ctx):
         '''Get information about the bot.'''
         em = self.bot.statsboard.current_stats
