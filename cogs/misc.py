@@ -31,7 +31,7 @@ from enum import Enum
 from urllib.request import urlopen
 from PIL import Image
 
-halloween = date(2017, 10, 31)
+halloween = date(2018, 10, 31)
 christmas = date(2017, 12, 25)
 
 class RPSLS(Enum):
